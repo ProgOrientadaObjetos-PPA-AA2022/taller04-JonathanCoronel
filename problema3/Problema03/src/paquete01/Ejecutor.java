@@ -8,22 +8,21 @@ package paquete01;
  *
  * @author JonathanCoronel
  */
-public class Ejecutar {
+public class Ejecutor {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Estudiante est1 = new Estudiante("Pablo Escobar");
-        est1.establecerCalMateria1(7);
-        est1.establecerCalMateria2(8);
-        est1.establecerCalMateria3(10);
-        est1.calcularPromedio();
-        Estudiante est2 = new Estudiante("Marco Jumbo", 9, 8, 6);
-        est2.calcularPromedio();
-        System.out.printf("%s\n", est1);
-        System.out.printf("%s\n", est2);
+        Automovil aut1 = new Automovil("1101906202", "Toyota");
+        aut1.establecerAnioFabricacion(2018);
+        aut1.establecerValorVehivculo(25000);
+        aut1.calcularValorMatricula();
+        Automovil aut2 = new Automovil("1400882229", "Ferrari", 2017,140000);
+        aut2.calcularValorMatricula();
+        System.out.printf("%s\n", aut1);
+        System.out.printf("%s\n", aut2);
     }
 
 }

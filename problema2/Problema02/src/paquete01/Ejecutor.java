@@ -8,7 +8,7 @@ package paquete01;
  *
  * @author JonathanCoronel
  */
-public class Ejecutar {
+public class Ejecutor {
 
     /**
      * @param args the command line arguments
